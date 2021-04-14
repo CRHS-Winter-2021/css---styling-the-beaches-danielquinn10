@@ -70,31 +70,45 @@
       .links{
         width:20%;
         float:left;
-        height: 1000px;
+        margin:10px;
+        height: 800px;
         border-style:solid;
         border-width:2px;
-        margin:10px;
         border-color:#ed4c74;
       }
 
       .midcol{
-        width:60%;
+        width:50%;
+        height:800px;
         border-style:solid;
         border-width:2px;
         border-color:#ed4c74;
         float:left;
         margin:10px;
+        margin-left:20px;
         overflow:scroll;
       }
 
       .rightcol{
         width:20%;
-        margin:10px;
+        height:800px;
         float:right;
         top:100px;
+        margin:10px;
         border-style:solid;
         border-width:2px;
         border-color:#ed4c74;
+      }
+
+      .beach{
+        width:100%;
+        border-style:ridge;
+        border-color:#4287f5;
+        border-width:4px;
+      }
+
+      .footer{
+        clear:both;
       }
 
       </style>
@@ -134,8 +148,8 @@
 			</ul>
 		</div> <!-- end of left column -->
 		
-		<div class:'midcol'>
-			<img src="Media/beach1.jpg" alt="Beautiful beach" width = "200px"> 
+		<div class='midcol'>
+			<img src="Media/beach1.jpg" alt="Beautiful beach" width = "200px" class = 'beach'> 
 			<br>
 			ABOUT OUR BEACHES <br>
 			With beaches that sing and others that stun visitors with their pristine blend of rustic solitude and splendid red sand, Prince Edward Island's sandy expanses continue to receive raves from all over the world, including a nomination as one of Canada's natural wonders.
@@ -175,12 +189,10 @@
 			
 		</p> <!-- end of right column -->
 		</div>
-				
-		<p >
+		<div class= 'footer'>
 		   <a href="https://www.tourismpei.com/contact-us-page" target = "_blank" >Contact Us </a> 	
 		   2020 Prince Edward Island Tourism. All Rights Reserved.
-		</p> <!-- end of footer -->
-				
+		</div> <!-- end of footer -->
 	</body>
 
 
